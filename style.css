@@ -198,7 +198,7 @@ header {
     box-sizing: border-box;
     height: 12.9545454545%;
     width: 13%;
-    font-size: auto;
+    font-size: 18px;
 }
 
 .slider-girl {
@@ -350,7 +350,11 @@ input[type="submit"]:hover {
 
 
 
-
+@media screen and (min-width: 1400px) {
+    .shop-now {
+        font-size: 25px;
+    }
+}
 
 @media screen and (max-width: 1020px) {
     .menu-container {
